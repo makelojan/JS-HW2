@@ -1,0 +1,89 @@
+div.content {
+    margin: 100px 15%;
+    text-align: center;
+}
+
+div.header {
+    background-color: orange;
+    padding: 20px 0;
+}
+h1 {
+    color: white;
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+div.form {
+    display: flex;
+    margin: 0 100px;
+}
+input {
+    flex: 1;
+    border: none;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+input:focus {
+    outline: none;
+}
+button.add {
+    width: 50px;
+    background-color: #90ee90;
+    border: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+button.add:hover {
+    background-color: #4cf14c;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.event:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+.event:nth-child(even) {
+    background-color: #eee;
+}
+.event:hover {
+    background-color: #d8d8d8;
+}
+
+span.text {
+    text-align: left;
+    flex: 1;
+    padding: 10px 0;
+}
+span.check {
+    padding: 10px 10px 10px 15px;
+    color: transparent;
+}
+button.remove {
+    width: 50px;
+    border: none;
+    background-color: rgba(228, 36, 36, 0.5);
+    font-size: 15px;
+    transition: 0.3s;
+}
+button.remove:hover {
+    background-color: rgba(206, 0, 0, 0.8);
+}
+
+.checked {
+    background-color: #276678;
+    color: white;
+}
+.checked > span.check {
+    color: white;
+}
+.checked > span.text {
+    text-decoration: line-through 1px;
+}
