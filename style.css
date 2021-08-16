@@ -27,7 +27,7 @@ input:focus {
     outline: none;
 }
 button.add {
-    width: 50px;
+    width: 100px;
     background-color: #90ee90;
     border: none;
     font-size: 15px;
@@ -47,13 +47,13 @@ li {
     font-size: 20px;
     transition: 0.3s;
 }
-.event:nth-child(odd) {
+.task:nth-child(odd) {
     background-color: #f9f9f9;
 }
-.event:nth-child(even) {
+.task:nth-child(even) {
     background-color: #eee;
 }
-.event:hover {
+.task:hover {
     background-color: #d8d8d8;
 }
 
