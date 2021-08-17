@@ -1,6 +1,8 @@
 div.content {
-    margin: 100px 15%;
+    margin: 0 15%;
+    padding: 100px 0;
     text-align: center;
+    font-family: "";
 }
 
 div.header {
@@ -10,6 +12,7 @@ div.header {
 h1 {
     color: white;
     font-size: 45px;
+    font-weight: bold;
     margin: 10px 0;
 }
 
@@ -30,7 +33,7 @@ button.add {
     width: 100px;
     background-color: #90ee90;
     border: none;
-    font-size: 15px;
+    font-size: 20px;
     transition: 0.3s;
 }
 button.add:hover {
@@ -46,6 +49,7 @@ li {
     display: flex;
     font-size: 20px;
     transition: 0.3s;
+    user-select: none;
 }
 .task:nth-child(odd) {
     background-color: #f9f9f9;
@@ -61,6 +65,7 @@ span.text {
     text-align: left;
     flex: 1;
     padding: 10px 0;
+    overflow-x: overlay;
 }
 span.check {
     padding: 10px 10px 10px 15px;
